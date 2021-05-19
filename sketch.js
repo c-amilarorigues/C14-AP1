@@ -10,7 +10,7 @@ var Student = {
 function setup() {
   
   createCanvas(400, 400);
-  //changing the roll no
+  //mudandoo o roll no (número do roll)
   console.log(Student.roll_no);
   Student.roll_no = 45;
   console.log(Student.roll_no);  
