@@ -2,7 +2,7 @@ var Student = {
   name: "Sammy",
   class: 7,
   roll_no:21,
-  favorite_subject: "coding",
+  favorite_subject: "programação",
   marks : [30,35,40,50]
   
 };
@@ -10,7 +10,7 @@ var Student = {
 function setup() {
   
   createCanvas(400, 400);
-  //mudandoo o roll no (número do roll)
+  //mudandoo o número da matrícula
   console.log(Student.roll_no);
   Student.roll_no = 45;
   console.log(Student.roll_no);  
